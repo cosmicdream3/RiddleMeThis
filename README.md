@@ -13,4 +13,4 @@ If your answer is correct then you move to the next riddle.
 
 If your answer is incorrect. Then You lose the game.
 
-This game is a suuden death quiz game and if you answer incorrectly you lose instantly.
+This game is a sudden death quiz game and if you answer incorrectly you lose instantly.

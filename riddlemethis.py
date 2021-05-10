@@ -161,7 +161,7 @@ class Application(Frame):
         guess - the int value to be verified
         """
 
-        if guess == self.ans:
+        if self.ans in guess.lower() :
             self.next_question()
             self.display_message("Correct Answer")
             return

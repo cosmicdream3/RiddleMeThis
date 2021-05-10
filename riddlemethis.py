@@ -1,7 +1,7 @@
 import random
 from tkinter import *
 
-# (Lower & upper limit)
+# (Lower & upper limit) questions
 MAX = 10
 MIN = 1
 

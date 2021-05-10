@@ -8,7 +8,7 @@ MIN = 1
 
 
 class Application(Frame):
-    """The GUI application (Guess My Number)."""
+    """The GUI application (Riddle Me This)."""
 
     __slots__ = "number", "tries", "question", "ans", "qlabel", "list_done"
 
@@ -34,14 +34,13 @@ class Application(Frame):
         if self.number == 1:
             self.question = "The word 'dxteieedp is jumbled. Guess the right word."
             self.ans = "expedited"
-
         elif self.number == 2:
             self.question = "Forwards I am heavy. Backwards I am not. What am I?"
             self.ans = "ton"
 
         elif self.number == 3:
             self.question = "What is black when it’s clean and white when it’s dirty?"
-            self.ans = "Chalkboard"
+            self.ans = "chalkboard"
 
         elif self.number == 4:
             self.question = "What holds water yet is full of holes?"
@@ -58,21 +57,21 @@ class Application(Frame):
 
         elif self.number == 7:
             self.question = "It belongs to you, but other people use it more than you do."
-            self.ans ="Your Name"
+            self.ans ="name"
 
 
         elif self.number == 8:
             self.question = " I follow you all the time and copy your every move, but you can’t touch me or catch me. What am I?"
-            self.ans ="Shadow"
+            self.ans ="shadow"
 
 
         elif self.number == 9:
             self.question = "What kind of coat can be put on only when wet?"
-            self.ans ="Paint"
+            self.ans ="paint"
 
         else:
             self.question = "What is always in front of you but can’t be seen?"
-            self.ans = "The future"
+            self.ans = "future"
 
     def create_widgets(self):
         """Program all the widgets to be used."""
@@ -228,13 +227,13 @@ class Application(Frame):
 
 
 def main():
-    """Kickstart Guess My Number."""
+    """Kickstart Riddle Me This."""
     root = Tk()
-    root.title("Guess The Word")
+    root.title("Riddle Me This")
     app = Application(root)
     root.mainloop()
 
 
 
-# start Guess The Number
+# start Riddle Me This
 main()

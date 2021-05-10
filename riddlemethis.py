@@ -83,6 +83,7 @@ class Application(Frame):
         self.qlabel.grid(row=0, column=0, columnspan=2, sticky=W)
 
         #Label(self, text = self.question).grid(row=0, column=0, columnspan=2, sticky=W)
+        #Aligns widgets in certain location
 
         Label(self,
               text="Try to guess the answer"
